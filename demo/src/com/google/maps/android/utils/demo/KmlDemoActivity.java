@@ -26,10 +26,12 @@ public class KmlDemoActivity extends BaseDemoActivity {
 
     private GoogleMap mMap;
 
+    @Override
     protected int getLayoutId() {
         return R.layout.kml_demo;
     }
 
+    @Override
     public void startDemo () {
         try {
             mMap = getMap();

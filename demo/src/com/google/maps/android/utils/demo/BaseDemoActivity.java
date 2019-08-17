@@ -17,12 +17,14 @@
 package com.google.maps.android.utils.demo;
 
 import android.os.Bundle;
-import androidx.fragment.app.FragmentActivity;
+import android.support.v4.app.FragmentActivity;
+import android.support.v7.app.AppCompatActivity;
+
 import com.google.android.gms.maps.GoogleMap;
 import com.google.android.gms.maps.OnMapReadyCallback;
 import com.google.android.gms.maps.SupportMapFragment;
 
-public abstract class BaseDemoActivity extends FragmentActivity implements OnMapReadyCallback {
+public abstract class BaseDemoActivity extends AppCompatActivity implements OnMapReadyCallback {
     private GoogleMap mMap;
 
     protected int getLayoutId() {

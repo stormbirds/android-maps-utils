@@ -18,7 +18,7 @@ package com.google.maps.android.heatmaps;
 
 import android.graphics.Bitmap;
 import android.graphics.Color;
-import androidx.collection.LongSparseArray;
+import android.util.LongSparseArray;
 
 import com.google.android.gms.maps.model.LatLng;
 import com.google.android.gms.maps.model.Tile;

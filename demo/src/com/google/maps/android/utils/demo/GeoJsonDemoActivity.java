@@ -41,6 +41,7 @@ public class GeoJsonDemoActivity extends BaseDemoActivity {
         }
     }
 
+    @Override
     protected int getLayoutId() {
         return R.layout.geojson_demo;
     }

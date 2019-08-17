@@ -16,7 +16,8 @@
 
 package com.google.maps.android.clustering.algo;
 
-import androidx.collection.LongSparseArray;
+import android.util.LongSparseArray;
+
 import java.util.Collection;
 import java.util.Collections;
 import java.util.HashSet;

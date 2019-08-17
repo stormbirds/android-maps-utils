@@ -16,14 +16,14 @@
 
 package com.google.maps.android.utils.demo;
 
-import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
 
-public class MainActivity extends Activity implements View.OnClickListener {
+public class MainActivity extends AppCompatActivity implements View.OnClickListener {
     private ViewGroup mListView;
 
     //Comment to see if I can push to the repository
@@ -50,7 +50,7 @@ public class MainActivity extends Activity implements View.OnClickListener {
         addDemo("KML Layer Overlay", KmlDemoActivity.class);
     }
 
-    private void addDemo(String demoName, Class<? extends Activity> activityClass) {
+    private void addDemo(String demoName, Class<? extends AppCompatActivity> activityClass) {
         Button b = new Button(this);
         ViewGroup.LayoutParams layoutParams = new ViewGroup.LayoutParams(ViewGroup.LayoutParams.MATCH_PARENT, ViewGroup.LayoutParams.MATCH_PARENT);
         b.setLayoutParams(layoutParams);
